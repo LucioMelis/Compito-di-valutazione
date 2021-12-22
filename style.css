@@ -1,0 +1,64 @@
+body{
+  background-image:url('background.jpg');
+  background-size: 100%;
+  margin-top: 30px
+}
+#container{
+  font-family: Verdana;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 600px;
+  margin: auto;
+  padding: 50px
+}
+
+header{
+  text-align: center;
+}
+.logo{
+  width: 200px;
+}
+.logo-text {
+  font-size: 25px;
+  color: #00FF00;
+  margin: 0;
+}
+nav{
+  background-color: #00FF00;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+main > div{
+  color: white;
+}
+h2{
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px;
+  margin-left: 0px;
+}
+div span{
+  display: block;
+}
+.first-loading{
+  height: 20px;
+  background-color: #FFA54F;
+  border-radius: 5px;
+  width: 350px;
+}
+.second-loading{
+  height: 20px;
+  background-color: #00CD00;
+  border-radius: 5px;
+  width: 500px;
+}
+.third-loading{
+  height: 20px;
+  background-color: #DC143C;
+  border-radius: 5px;
+  width: 150px;
+}
+/* Come ha detto il nostro insegnante Fabio */
+/* lo sviluppatore è pigro, meno scrive meglio è */
+/* Ho inserito tante proprietà Css, potevo scrivere meno Css */
